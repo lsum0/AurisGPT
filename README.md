@@ -1,8 +1,5 @@
 
 
-
-
-
 <h1 align="center">🎙️ Voice AI Assistant</h1>
 <p align="center">
   <i>Natural Language Conversational Assistant with Real-Time Speech Recognition and AI Response</i>
@@ -21,7 +18,7 @@
 
 
 
-![](Thecode.gif)
+
 
 
 
@@ -191,9 +188,10 @@ This script captures Arabic speech from the microphone, converts it to text usin
 ## The result : 
 ![](output_voice.jpeg)
 
+## 11. Run The Code : 
 
 
-
+![](Thecode.gif)
 
 
 
