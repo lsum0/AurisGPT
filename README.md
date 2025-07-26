@@ -56,7 +56,7 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 ├── result.png               # Screenshot of a working session
 └── README.md
 
-
+```
 
 
 ## 4. Installation :
