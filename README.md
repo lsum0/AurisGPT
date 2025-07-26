@@ -1,6 +1,3 @@
-
-
-
 <h1 align="center">🎙️ Voice AI Assistant</h1>
 <p align="center">
   <i>Natural Language Conversational Assistant with Real-Time Speech Recognition and AI Response</i>
@@ -14,36 +11,51 @@
 
 ---
 
-## 1.  Introduction :
+## Table of Contents
+- [1. Introduction](#1-introduction-)
+- [2. Features](#2-features-)
+- [3. Project Structure](#3-project-structure-)
+- [4. Installation](#4-installation)
+- [5. Configuration](#5-configuration)
+- [6. Usage](#6-usage)
+- [7. Example Flow](#7-example-flow-)
+- [8. Flowchart](#8-flowchart-)
+- [9. Project Files](#9-project-files-)
+- [10. Behind the Code](#10-behind-the-code-)
+- [11. License](#11-license)
+- [12. Contributing](#12-contributing)
+
+---
+
+## 1. Introduction :
 
 The **Voice AI Assistant** is a Python-powered virtual assistant that combines real-time voice recognition with OpenAI's language model to enable natural, seamless conversations. Speak into your microphone, and the assistant will understand, think, and respond — all in real time.
 
 This solution demonstrates how voice-enabled AI can be built using open tools and APIs, bringing intelligence to the edge of human-computer interaction.
 
-
-
 ![](PIc-AI.png)
----
-
-##  2. Features :
-
--  **Real-Time Speech-to-Text**: Capture user speech and transcribe it using Google’s Speech Recognition API.
--  **AI-Powered Understanding**: Process input and generate intelligent replies using OpenAI GPT.
--  **Text-to-Speech Synthesis**: Speak back responses using the `pyttsx3` TTS engine.
--  **Continuous Conversation Loop**: Maintain a fluid conversation until user exits.
--  **Voice-Based Termination**: Say “exit” to end the session.
 
 ---
 
-##  3. Project Structure :
+## 2. Features :
+
+- **Real-Time Speech-to-Text**: Capture user speech and transcribe it using Google’s Speech Recognition API.
+- **AI-Powered Understanding**: Process input and generate intelligent replies using OpenAI GPT.
+- **Text-to-Speech Synthesis**: Speak back responses using the `pyttsx3` TTS engine.
+- **Continuous Conversation Loop**: Maintain a fluid conversation until user exits.
+- **Voice-Based Termination**: Say “exit” to end the session.
+
+---
+
+## 3. Project Structure :
 
 ```bash
-├── voice_ai_assistant.py # Main assistant controller
-├── speech_to_text.py # Handles audio capture and transcription
-├── flowchartAI.png # Flowchart diagram of the system
-├── result.png # Screenshot of a working session
+├── voice_ai_assistant.py    # Main assistant controller
+├── speech_to_text.py        # Handles audio capture and transcription
+├── flowchartAI.png          # Flowchart diagram of the system
+├── result.png               # Screenshot of a working session
 └── README.md
-```
+
 
 
 
