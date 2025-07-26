@@ -20,6 +20,9 @@ The **Voice AI Assistant** is a Python-powered virtual assistant that combines r
 
 This solution demonstrates how voice-enabled AI can be built using open tools and APIs, bringing intelligence to the edge of human-computer interaction.
 
+
+
+![](PIc-AI.png)
 ---
 
 ##  Features
