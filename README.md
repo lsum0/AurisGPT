@@ -97,8 +97,8 @@ Summary:
 
 | File Name    | Language      | Description                                              | View File                    |
 |--------------|---------------|----------------------------------------------------------|------------------------------|
-| `Speech_to_Text.py`   | Python |  	Listens to Arabic speech and converts it to text using Google’s speech recognition.   | [View Code](.py) |
-| `voice_ai_assistant.py` | Python        | Converts spoken Arabic to text, asks an AI model, then speaks the AI's Arabic reply aloud.  | [View Code](./code/utils.py) |
+| `Speech_to_Text.py`   | Python |  	Listens to Arabic speech and converts it to text using Google’s speech recognition.   | [View Code](Speech_to_Text.py) |
+| `voice_ai_assistant.py` | Python        | Converts spoken Arabic to text, asks an AI model, then speaks the AI's Arabic reply aloud.  | [View Code](voice_ai_assistant.py) |
 
 
 
