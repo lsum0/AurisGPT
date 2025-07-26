@@ -191,7 +191,7 @@ This script captures Arabic speech from the microphone, converts it to text usin
 ## 11. Run The Code : 
 
 
-<img src="Thecode.gif" width="1000"/>
+<img src="thegif.gif" width="1000"/>
 
 
 
