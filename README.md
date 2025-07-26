@@ -2,17 +2,16 @@
 
 
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
-  <img src="https://img.shields.io/badge/python-3.7%2B-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License">
-</p>
 
 <h1 align="center">🎙️ Voice AI Assistant</h1>
 <p align="center">
   <i>Natural Language Conversational Assistant with Real-Time Speech Recognition and AI Response</i>
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project Status">
+  <img src="https://img.shields.io/badge/python-3.7%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License">
+</p>
 
 
 ## Table of Contents
