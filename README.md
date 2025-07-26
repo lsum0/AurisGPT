@@ -51,6 +51,7 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 ├── speech_to_text.py        # Handles audio capture and transcription
 ├── flowchartAI.png          # Flowchart diagram of the system
 ├── result.png               # Screenshot of a working session
+└── Run The Code
 └── README.md
 
 ```
