@@ -59,7 +59,7 @@ Before running the assistant, set your OpenAI API key inside voice_ai_assistant.
 
 openai.api_key = "my_key_in_API"
 
-6. Usage : 
+## 6. Usage : 
 Run the assistant:
 
 Speak naturally after the prompt:
