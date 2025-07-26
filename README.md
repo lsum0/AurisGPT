@@ -74,7 +74,7 @@ Assistant replies out loud.
 ![](another-pic.png)
 
 ## Flowchart : 
-![](.png) 
+![](flowchartAI.png) 
 
 The flowchart outlines a real-time Voice AI Assistant that integrates speech recognition, natural language processing, and text-to-speech. The system begins by prompting the user to speak, transcribes the input using Google’s API, and checks for an exit command. If not exiting, the input is processed by OpenAI’s GPT model, and the response is spoken aloud using pyttsx3. This loop continues until the user says “exit,” enabling natural, continuous interaction
 
