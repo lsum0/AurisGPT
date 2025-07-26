@@ -61,12 +61,12 @@ Before running the assistant, set your OpenAI API key inside voice_ai_assistant.
 
 openai.api_key = "my_key_in_API"
 
-## 6. Useg :
+6. Usage : 
+Run the assistant:
 
-python3 (name the file).py
-for Example : 
-python3 voice_ai_assistant.py then Run 
-now Talking with AI .. , To Stop The Assistant, Simply Say ( Exit) .
+python3 voice_ai_assistant.py
+You will hear: "Speak now..."
+The assistant will respond out loud. To stop, simply say "exit".
 
 ##  7. Example Flow : 
 
