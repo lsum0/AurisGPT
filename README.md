@@ -1,6 +1,4 @@
-## Table of Contents
-- [1. Introduction](#1-introduction-) |  [2. Features](#2-features-)  | [3. Project Structure](#3-project-structure-) | [4. Installation](#4-installation) | [5. Configuration](#5-configuration)
-- [6. Usage](#6-usage) | [7. Example Flow](#7-example-flow-) | [8. Flowchart](#8-flowchart-) |  [9. Project Files](#9-project-files-) | [10. Behind the Code](#10-behind-the-code-)
+
 
 
 
@@ -16,7 +14,9 @@
   <img src="https://img.shields.io/badge/python-3.7%2B-blue" alt="Python Version">
   <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License">
 </p>
-
+## Table of Contents
+- [1. Introduction](#1-introduction-) |  [2. Features](#2-features-)  | [3. Project Structure](#3-project-structure-) | [4. Installation](#4-installation) | [5. Configuration](#5-configuration)
+- [6. Usage](#6-usage) | [7. Example Flow](#7-example-flow-) | [8. Flowchart](#8-flowchart-) |  [9. Project Files](#9-project-files-) | [10. Behind the Code](#10-behind-the-code-)
 
 
 ---
