@@ -20,6 +20,8 @@
 - [6. Usage](#6-usage) | [7. Example Flow](#7-example-flow-) | [8. Flowchart](#8-flowchart-) |  [9. Project Files](#9-project-files-) | [10. Behind the Code](#10-behind-the-code-)
 
 
+
+![](Thecode.gif)
 ---
 
 ## 1. Introduction :
