@@ -116,7 +116,7 @@ with sr.Microphone() as source:
 This Python code uses the `speech_recognition` library to convert spoken Arabic (Saudi Arabia) into text. It listens to the microphone after adjusting for background noise for 1 second, then sends the audio to Google’s speech recognition service. If successful, it prints the recognized text; otherwise, it handles errors for unclear speech or connection problems.
 
 ## The result : 
-![]()
+![](output_Text.jpeg)
 
 
 
@@ -165,7 +165,7 @@ except sr.RequestError as e:
 This script captures Arabic speech from the microphone, converts it to text using Google Speech Recognition, then sends that text to OpenAI's GPT-4o-mini model for an Arabic-language AI response. The AI reply is printed and also spoken aloud using a text-to-speech engine (`pyttsx3`). It includes error handling for unrecognized speech and connection issues.
 
 ## The result : 
-![]()
+![](output_voice.jpeg)
 
 
 
