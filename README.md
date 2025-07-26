@@ -38,9 +38,11 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 ##  3. Project Structure
 
 ```bash
-.
-├── voice_ai_assistant.py   # Main assistant script (orchestrates interaction)
-└── speech_to_text.py       # Speech recognition module (microphone -> text)
+├── voice_ai_assistant.py # Main assistant controller
+├── speech_to_text.py # Handles audio capture and transcription
+├── flowchartAI.png # Flowchart diagram of the system
+├── result.png # Screenshot of a working session
+└── README.md
 ```
 
 
@@ -73,9 +75,101 @@ Assistant: (Processes via GPT) → "Artificial intelligence is the simulation of
 Assistant replies out loud.
 ![](another-pic.png)
 
-## Flowchart : 
+## 8. Flowchart : 
 ![](flowchartAI.png) 
 
-The flowchart outlines a real-time Voice AI Assistant that integrates speech recognition, natural language processing, and text-to-speech. The system begins by prompting the user to speak, transcribes the input using Google’s API, and checks for an exit command. If not exiting, the input is processed by OpenAI’s GPT model, and the response is spoken aloud using pyttsx3. This loop continues until the user says “exit,” enabling natural, continuous interaction
+Summary:
+
+1- User speaks
+
+2- Audio is transcribed
+
+3- GPT processes input
+
+4- Assistant speaks response
+
+5- Repeats unless "exit" is said
+
+
+## Behind the Code : 
+1- speech_to_text.py 
+
+```Text
+import speech_recognition as sr
+
+recognizer = sr.Recognizer()
+
+with sr.Microphone() as source:
+    print("⏳ انتظر لحظة لتحسين الصوت...")
+    recognizer.adjust_for_ambient_noise(source, duration=1)  # تحسين الجودة
+    print("🎤 تكلم الآن...")
+    audio = recognizer.listen(source)
+
+    try:
+        text = recognizer.recognize_google(audio, language="ar-SA")
+        print("📝 النص المحول:", text)
+    except sr.UnknownValueError:
+        print("❌ ما تم التعرف على الصوت.")
+    except sr.RequestError as e:
+        print("⚠️ مشكلة في الاتصال بخدمة Google:", e)
+```
+This Python code uses the `speech_recognition` library to convert spoken Arabic (Saudi Arabia) into text. It listens to the microphone after adjusting for background noise for 1 second, then sends the audio to Google’s speech recognition service. If successful, it prints the recognized text; otherwise, it handles errors for unclear speech or connection problems.
+
+## The result : 
+![]()
+
+
+
+2-voice_ai_assistant.py 
+
+```Text
+import speech_recognition as sr
+import openai
+import pyttsx3
+
+openai.api_key = "APIKey"
+
+engine = pyttsx3.init()
+recognizer = sr.Recognizer()
+
+with sr.Microphone() as source:
+    print("⏳ انتظر لحظة للمعايرة...")
+    recognizer.adjust_for_ambient_noise(source, duration=1)
+    print("🎤 تكلم الآن...")
+    audio = recognizer.listen(source)
+
+try:
+    user_input = recognizer.recognize_google(audio, language="ar-SA")
+    print("📝 النص المحول:", user_input)
+
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "أنت مساعد ذكي يتحدث فقط بالعربية الفصحى وبأسلوب واضح ومختصر."},
+            {"role": "user", "content": user_input}
+        ],
+        max_tokens=200
+    )
+
+    reply = response.choices[0].message.content.strip()
+    print("🤖 رد الذكاء الاصطناعي:", reply)
+
+    engine.say(reply)
+    engine.runAndWait()
+
+except sr.UnknownValueError:
+    print("❌ ما تم التعرف على الصوت.")
+except sr.RequestError as e:
+    print("⚠️ مشكلة في الاتصال:", e)
+```
+This script captures Arabic speech from the microphone, converts it to text using Google Speech Recognition, then sends that text to OpenAI's GPT-4o-mini model for an Arabic-language AI response. The AI reply is printed and also spoken aloud using a text-to-speech engine (`pyttsx3`). It includes error handling for unrecognized speech and connection issues.
+
+## The result : 
+![]()
+
+
+
+
+
 
  
