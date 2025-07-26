@@ -21,7 +21,10 @@
 
 
 
-![](Thecode.gif)
+[](Thecode.gif)
+
+
+
 ---
 
 ## 1. Introduction :
