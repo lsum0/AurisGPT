@@ -14,7 +14,7 @@
 
 ---
 
-## 1.  Introduction
+## 1.  Introduction :
 
 The **Voice AI Assistant** is a Python-powered virtual assistant that combines real-time voice recognition with OpenAI's language model to enable natural, seamless conversations. Speak into your microphone, and the assistant will understand, think, and respond — all in real time.
 
@@ -25,7 +25,7 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 ![](PIc-AI.png)
 ---
 
-##  2. Features
+##  2. Features :
 
 -  **Real-Time Speech-to-Text**: Capture user speech and transcribe it using Google’s Speech Recognition API.
 -  **AI-Powered Understanding**: Process input and generate intelligent replies using OpenAI GPT.
@@ -35,7 +35,7 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 
 ---
 
-##  3. Project Structure
+##  3. Project Structure :
 
 ```bash
 ├── voice_ai_assistant.py # Main assistant controller
@@ -93,17 +93,17 @@ Summary:
 
 
 
-### 📁 Project Files
+### 9.  Project Files :
 
 | File Name    | Language      | Description                                              | View File                    |
 |--------------|---------------|----------------------------------------------------------|------------------------------|
-| `Speech_to_Text.py`   | Python |  	Listens to Arabic speech and converts it to text using Google’s speech recognition.   | [View Code](Speech_to_Text.py) |
+| `Speech_to_Text.py`   | Python |  	Listens to Arabic speech and converts it to text using Google’s speech recognition.   | [View Code](speech_to_text.py) |
 | `voice_ai_assistant.py` | Python        | Converts spoken Arabic to text, asks an AI model, then speaks the AI's Arabic reply aloud.  | [View Code](voice_ai_assistant.py) |
 
 
 
 
-## Behind the Code : 
+## 10. Behind the Code : 
 1- speech_to_text.py 
 
 ```Text
