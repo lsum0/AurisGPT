@@ -1,6 +1,6 @@
 
 
-pro_readme = """
+
 <h1 align="center">🎙️ Voice AI Assistant</h1>
 <p align="center">
   <i>Natural Language Conversational Assistant with Real-Time Speech Recognition and AI Response</i>
