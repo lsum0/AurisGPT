@@ -1,3 +1,11 @@
+## Table of Contents
+- [1. Introduction](#1-introduction-)  [2. Features](#2-features-) [3. Project Structure](#3-project-structure-) [4. Installation](#4-installation) [5. Configuration](#5-configuration)
+- [6. Usage](#6-usage)  [7. Example Flow](#7-example-flow-)  [8. Flowchart](#8-flowchart-) [9. Project Files](#9-project-files-)  [10. Behind the Code](#10-behind-the-code-)
+
+
+
+
+
 <h1 align="center">🎙️ Voice AI Assistant</h1>
 <p align="center">
   <i>Natural Language Conversational Assistant with Real-Time Speech Recognition and AI Response</i>
@@ -177,17 +185,7 @@ This script captures Arabic speech from the microphone, converts it to text usin
 ## The result : 
 ![](output_voice.jpeg)
 
-## Table of Contents
-- [1. Introduction](#1-introduction-)
-- [2. Features](#2-features-)
-- [3. Project Structure](#3-project-structure-)
-- [4. Installation](#4-installation)
-- [5. Configuration](#5-configuration)
-- [6. Usage](#6-usage)
-- [7. Example Flow](#7-example-flow-)
-- [8. Flowchart](#8-flowchart-)
-- [9. Project Files](#9-project-files-)
-- [10. Behind the Code](#10-behind-the-code-)
+
 
 
 
