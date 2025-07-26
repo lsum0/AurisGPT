@@ -62,9 +62,9 @@ openai.api_key = "my_key_in_API"
 6. Usage : 
 Run the assistant:
 
-python3 voice_ai_assistant.py
-You will hear: "Speak now..."
-The assistant will respond out loud. To stop, simply say "exit".
+Speak naturally after the prompt:
+🎤 تكلم الآن...
+Say "exit" to end the session gracefully.
 
 ##  7. Example Flow : 
 
