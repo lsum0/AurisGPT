@@ -42,6 +42,13 @@ This solution demonstrates how voice-enabled AI can be built using open tools an
 - **Continuous Conversation Loop**: Maintain a fluid conversation until user exits.
 - **Voice-Based Termination**: Say “exit” to end the session.
 
+###  Upcoming Features (Planned):
+
+-  Multi-language support (English, French, etc.)
+-  Voice sensitivity control and noise filtering
+-  Memory: Assistant remembers previous questions during session
+-  Output voice customization using high-quality TTS (e.g. ElevenLabs)
+-  Modular plug-in system for adding new commands easily
 ---
 
 ## 3. Project Structure :
@@ -186,10 +193,25 @@ except sr.RequestError as e:
 ```
 This script captures Arabic speech from the microphone, converts it to text using Google Speech Recognition, then sends that text to OpenAI's GPT-4o-mini model for an Arabic-language AI response. The AI reply is printed and also spoken aloud using a text-to-speech engine (`pyttsx3`). It includes error handling for unrecognized speech and connection issues.
 
+
+## 11. Final Notes
+
+This project is just the beginning of what’s possible with voice-enabled AI.
+
+Feel free to fork, contribute, or customize it for your own use case.  
+Together, we can build more accessible and intelligent tools for everyone.
+
+---
+
+🙏 Thank you for checking out this project!  
+⭐ If you liked it, consider starring the repo or sharing it with others.
+
+Made with ❤️ using Python, OpenAI, and a passion for voice AI.
+
 ## The result : 
 ![](output_voice.jpeg)
 
-## 11. Run The Code : 
+## 12. Run The Code : 
 
 
 <img src="thegif.gif" width="1000"/>
